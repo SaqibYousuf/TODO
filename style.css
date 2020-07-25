@@ -1,0 +1,91 @@
+body{
+    background-color: #0D0301 ;
+}
+.todo{
+    background-color: #1F66A8;
+    width: 500px;
+    height: 550px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding: 30px;
+    border-top-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+    box-shadow: 0px 0px 10px 1px white;
+}
+.inputBtn{
+    height: 36px;
+    outline: none;
+    color: #1F66A8;
+    background-color: #0D0301;
+    border: none;
+    padding: 10px 20px;
+}
+#todoInput{
+    width: 210px;
+    height: 30px;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #ffffff47;
+}
+#todoInput::placeholder{
+    color: #ffffff47;
+}
+.todoList{
+    border: 1px solid #ffffff47;
+    margin-top: 30px;
+    height: 380px;
+overflow-y: scroll;
+    padding: 10px;
+
+}
+.todoList ul li {
+   
+    background-color: transparent;
+    height: 40px;
+    display: flex;
+    justify-content: start;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 0px 0px 0px 10px;
+    justify-content: space-between;
+    border-bottom: 1px solid #ffffff47;
+
+}
+
+.todoList ul{
+    list-style: none;
+    padding: 0px;
+}
+.Button{
+    float: right;
+}
+
+.divbtn button{
+    width: 90px;
+    height: 40px;
+    color: #1F66A8;
+    background-color: #0D0301;
+    border: none;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
